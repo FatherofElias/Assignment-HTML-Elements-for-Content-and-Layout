@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!--Task 1: Define the Page Structure Use semantic elements to define the basic structure of your web page, including a header, navigation, main content, and a footer.-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A few of my favorite things</title>
+</head>
+<body>
+    <header>
+        <h1>A few of My favorite things: A look into my interests</h1>
+        <p>I want to share with you a few of my favorite things, from characters, to songs, to youtube videos.</p>
+    </header>
+        <main>
+            <nav>
+                <ul>
+                    <li><a href="#characters">My favorite Video Game characters</a></li>
+                    <li><a href="#song">Favorite Song</a></li>
+                    <li><a href="#video">Favorite Youtube Video</a></li>
+                </ul>
+            </nav>
+
+<!--Task 2: Organize Content Using Articles and Sections --> <!--Also Task 3 Enhance Accessibility with Semantic Markup-->
+            <section id="#characters">
+                <h2>My favorite Video Game characters</h2>
+                <figure>
+                    <img src="Kratos.jfif" alt="Kratos From God of War">
+                    <figcaption>Kratos from 'God of War'</figcaption>
+                    <img src="dante.jfif" alt="Dante from Devil May Cry">
+                    <figcaption>Dante from 'Devil May Cry'</figcaption>
+                </figure>
+            </section>
+    
+            <section id="song">
+                <h2>Favorite Song</h2>
+                <article>
+                    <h3>Fatima by Russ</h3>
+                    <audio controls>
+                        <source src="Fatima.mp3" type="audio/mpeg">
+                        Your browswer does not support the audio tag.
+                    </audio>
+                </article>
+            </section>
+    
+
+            <section id="video">
+                <h2>Favorite Youtube Video</h2>
+                <article>
+                    <h3>Nile Red - Making an atomic trampoline</h3>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/jLX1-tNnvEo?si=pT3i_oi3fMK3nFNp"
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                    </iframe>
+                </article>
+            </section>   
+            <article>
+                <aside>
+                        <h2>Me</h2>
+                        <figure>
+                            <img width="180" height="240" src="me.jpg" alt="Picture of Daniel Wallace">
+                            <figcaption>A portait of me, Daniel Wallace</figcaption>
+                        </figure>
+                </aside>
+            </article>
+        </main>
+                <footer>
+                    <address>
+                        Follow me on <a href="#">Twitter</a> and <a href="#">LinkedIn</a> for mor about me.
+                    </address>
+                    <p>&copy; All Rights Reserved, Daniel Wallace Sept. 2024</p>
+                </footer>
+    
+</body>
